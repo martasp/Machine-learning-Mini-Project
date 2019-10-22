@@ -1,0 +1,14 @@
+win
+& C:/Users/mart/AppData/Local/Programs/Python/Python37-32/python.exe -m pip install scipy
+& C:/Users/mart/AppData/Local/Programs/Python/Python37-32/python.exe -m pip install matplotlib
+& C:/Users/mart/AppData/Local/Programs/Python/Python37-32/python.exe -m pip install xlrd
+& C:/Users/mart/AppData/Local/Programs/Python/Python37-32/python.exe -m pip install requests
+& C:/Users/mart/AppData/Local/Programs/Python/Python37-32/python.exe -m pip install pandas
+& C:/Users/mart/AppData/Local/Programs/Python/Python37-32/python.exe -m pip install manager
+linux
+pip install scipy
+pip install matplotlib
+pip install xlrd
+pip install requests
+pip install pandas
+pip install manager
