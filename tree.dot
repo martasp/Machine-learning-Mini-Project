@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Eismo įvykio dalyvio būklė_Žuvo <= 0.5\ngini = 0.04\nsamples = 3437\nvalue = [5346, 114]\nclass = 1", fillcolor="#e6843d"] ;
+1 [label="gini = 0.0\nsamples = 3366\nvalue = [5346, 0]\nclass = 1", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 71\nvalue = [0, 114]\nclass = 2", fillcolor="#399de5"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
